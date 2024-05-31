@@ -7,9 +7,10 @@ The project contains 3 azure functions.
 
 Clone the project and run it directly.
 
-Endpoints.
+**Endpoints.**
 
 1)http://localhost:7121/api/Passwordgenerator?numberOfPasswords=1&passwordLength=2
+
 2)http://localhost:7121/api/RateLimitWithFile?userId=123
 
 Was having issues with my azure account so I have used RateLimitWithFile instead of RateLimit which uses local file instead of connection string of azure cosmo db.
